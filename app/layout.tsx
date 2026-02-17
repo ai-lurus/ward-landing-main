@@ -3,8 +3,8 @@ import './css/style.css'
 import Header from '@/components/ui/header'
 
 export const metadata = {
-  title: 'Ward',
-  description: 'Guardián de tus procesos',
+  title: 'Ward.io - Gestión Logística Integral para Transporte de Carga',
+  description: 'Plataforma SaaS que digitaliza y optimiza la operación de flotas de transporte de carga. Control de viajes, costos, flota, inventario, operadores y reportes en un solo lugar.',
 }
 
 export default function RootLayout({
@@ -18,10 +18,8 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
-          {/* <Banner /> */}
         </div>
       </body>
     </html>
   )
 }
- 

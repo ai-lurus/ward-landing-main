@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import Link from 'next/link'
 
 export default function MobileMenu() {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false)
@@ -59,19 +58,35 @@ export default function MobileMenu() {
         className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="bg-gray-800 px-4 py-2">
+        <ul className="bg-gray-800 px-4 py-2 rounded">
           <li>
-            <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              Sign in
-            </Link>
+            <a href="#caracteristicas" className="flex font-medium w-full text-gray-300 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              Características
+            </a>
+          </li>
+          {/* <li>
+            <a href="#precios" className="flex font-medium w-full text-gray-300 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              Precios
+            </a>
+          </li> */}
+          <li>
+            <a href="#faq" className="flex font-medium w-full text-gray-300 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              FAQ
+            </a>
           </li>
           <li>
-            <Link
-              href="/signup"
-              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
+            <a href="#contacto" className="flex font-medium w-full text-gray-300 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              Contacto
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contacto"
+              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+              onClick={() => setMobileNavOpen(false)}
             >
-              Sign up
-            </Link>
+              Solicitar Demo
+            </a>
           </li>
         </ul>
       </nav>

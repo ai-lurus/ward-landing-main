@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 import wardLogo from '@/public/images/ward logo morado.png'
-import Image from 'next/image';
+import Image from 'next/image'
 
 export default function Header() {
   return (
@@ -10,37 +10,59 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4">
-            {/* Logo */}
-            <Link href="/" className="block" aria-label="Cruip">
-              <Image 
-                alt='logo-header'
+            <Link href="/" className="block" aria-label="Ward.io">
+              <Image
+                alt="Ward.io"
                 src={wardLogo}
-                style={{"width": 100}}
+                style={{ width: 100 }}
               />
             </Link>
           </div>
 
           {/* Desktop navigation */}
-          {/* <nav className="hidden md:flex md:grow"> */}
-            {/* Desktop sign in links */}
-            {/* <ul className="flex grow justify-end flex-wrap items-center">
+          <nav className="hidden md:flex md:grow">
+            <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link
-                  href="/signin"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                <a
+                  href="#caracteristicas"
+                  className="font-medium text-gray-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Sign in
-                </Link>
+                  Características
+                </a>
+              </li>
+              {/* <li>
+                <a
+                  href="#precios"
+                  className="font-medium text-gray-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Precios
+                </a>
+              </li> */}
+              <li>
+                <a
+                  href="#faq"
+                  className="font-medium text-gray-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  FAQ
+                </a>
               </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-                  Sign up
-                </Link>
+                <a
+                  href="#contacto"
+                  className="font-medium text-gray-400 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Contacto
+                </a>
+              </li>
+              <li>
+                <a href="#contacto" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                  Solicitar Demo
+                </a>
               </li>
             </ul>
-          </nav> */}
+          </nav>
 
-          {/* <MobileMenu /> */}
+          <MobileMenu />
 
         </div>
       </div>
