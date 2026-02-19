@@ -1,8 +1,3 @@
-export const metadata = {
-  title: 'Ward - Gestión de Inventario para Flotas de Transporte',
-  description: 'Plataforma SaaS para digitalizar la operación de flotas de transporte de carga. Empieza con el módulo de inventario y crece con cada nueva funcionalidad.',
-}
-
 import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Zigzag from '@/components/zigzag'
