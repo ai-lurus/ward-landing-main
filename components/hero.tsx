@@ -25,11 +25,11 @@ export default function Hero() {
               Digitaliza y optimiza la operación de tu flota de transporte
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              Ward.io es la plataforma SaaS que centraliza el control de viajes, costos, flota, inventario y operadores. Elimina hojas de cálculo y toma decisiones basadas en datos reales.
+              Comienza a digitalizar tu operación con nuestro módulo de inventario. Control de viajes, flota, operadores y más, en camino.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#contacto">Solicitar Demo</a>
+                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#contacto">Ver demo del módulo de Inventario</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#caracteristicas">Conocer más</a>
@@ -37,19 +37,19 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Metrics */}
+          {/* Benefits */}
           <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 text-center" data-aos="fade-up" data-aos-delay="800">
             <div className="bg-gray-800 rounded p-4">
-              <div className="text-3xl font-bold text-purple-500">83%</div>
-              <div className="text-gray-400 text-sm mt-1">Menos tiempo en gestión administrativa</div>
+              <div className="text-2xl font-bold text-purple-500 mb-1">Menos papeleo</div>
+              <div className="text-gray-400 text-sm">Reemplaza hojas de cálculo y registros manuales por un sistema centralizado</div>
             </div>
             <div className="bg-gray-800 rounded p-4">
-              <div className="text-3xl font-bold text-purple-500">&lt;5%</div>
-              <div className="text-gray-400 text-sm mt-1">Margen de error en costos de viaje</div>
+              <div className="text-2xl font-bold text-purple-500 mb-1">Mayor precisión</div>
+              <div className="text-gray-400 text-sm">Trazabilidad completa de cada movimiento de inventario, sin datos perdidos</div>
             </div>
             <div className="bg-gray-800 rounded p-4">
-              <div className="text-3xl font-bold text-purple-500">10-15%</div>
-              <div className="text-gray-400 text-sm mt-1">Ahorro en costos operativos</div>
+              <div className="text-2xl font-bold text-purple-500 mb-1">Menos faltantes</div>
+              <div className="text-gray-400 text-sm">Alertas automáticas de stock mínimo antes de que afecten tu operación</div>
             </div>
           </div>
 

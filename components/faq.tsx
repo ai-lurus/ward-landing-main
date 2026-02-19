@@ -4,28 +4,28 @@ import { Disclosure, Transition } from '@headlessui/react'
 
 const faqs = [
   {
-    question: '¿Qué tipo de empresas pueden usar Ward.io?',
-    answer: 'Ward.io está diseñado para empresas de transporte de carga terrestre, desde flotillas de 5 unidades hasta operaciones con más de 100 camiones. Si gestionas viajes, operadores, unidades e inventario de refacciones, Ward.io es para ti.',
+    question: '¿Qué tipo de empresas pueden usar Ward?',
+    answer: 'Ward está diseñado para empresas de transporte de carga terrestre que quieren dejar de gestionar su operación con hojas de cálculo. Si manejas refacciones, llantas o consumibles para tu flota, el módulo de Inventario es para ti hoy. Más módulos estarán disponibles próximamente.',
   },
   {
-    question: '¿Cómo se calculan los costos de viaje?',
-    answer: 'El sistema calcula automáticamente los costos basándose en la ruta seleccionada, el tipo de unidad y número de ejes (para casetas), rendimiento de combustible, seguro de carga y viáticos configurables. Puedes ver el costo estimado antes de confirmar el viaje.',
+    question: '¿Qué puedo gestionar con el módulo de Inventario?',
+    answer: 'Puedes registrar entradas y salidas de refacciones, llantas y consumibles, definir niveles mínimos y máximos de stock, y consultar el historial completo de movimientos por artículo. Cada movimiento queda trazado con fecha, responsable y motivo.',
   },
   {
     question: '¿Mis datos están seguros?',
-    answer: 'Absolutamente. Utilizamos encriptación de datos en tránsito y en reposo, autenticación segura con JWT, control de acceso basado en roles y backups automáticos. Tu información operativa está protegida con estándares de seguridad empresarial.',
+    answer: 'Sí. Utilizamos encriptación de datos en tránsito y en reposo, autenticación con JWT y control de acceso basado en roles. Tu información operativa no es accesible para terceros.',
   },
   {
-    question: '¿Cuánto tiempo toma implementar Ward.io?',
-    answer: 'La implementación típica toma entre 1 y 2 semanas. Incluye la configuración inicial de tu empresa, carga de catálogos (unidades, operadores, rutas) y capacitación de tu equipo. En el plan Empresarial incluimos onboarding dedicado.',
+    question: '¿Cuánto tiempo toma empezar a usar Ward?',
+    answer: 'El proceso de configuración inicial es sencillo: defines tus categorías, cargas tu catálogo de artículos y empiezas a registrar movimientos. Nuestro equipo te acompaña en el proceso para que no arranques solo.',
   },
   {
-    question: '¿Puedo personalizar los módulos según mi operación?',
-    answer: 'Sí. Puedes configurar tipos de unidades, categorías de inventario, parámetros de rutas y casetas, roles de usuario y más. El plan Empresarial además incluye white-labeling y acceso a API para integraciones personalizadas.',
+    question: '¿Puedo adaptar el inventario a mi operación?',
+    answer: 'Sí. Puedes crear tus propias categorías de artículos, definir unidades de medida, configurar niveles de stock por artículo y asignar roles a tu equipo según quién puede ver o registrar movimientos.',
   },
   {
     question: '¿Ofrecen soporte técnico?',
-    answer: 'Todos los planes incluyen soporte. El plan Básico incluye soporte por email, el Profesional añade soporte prioritario con tiempos de respuesta garantizados, y el Empresarial incluye un ejecutivo de cuenta dedicado y soporte 24/7.',
+    answer: 'Sí. Puedes contactarnos directamente por correo y nuestro equipo te responde. Estamos en una etapa temprana y eso significa atención cercana — no un bot ni un formulario perdido.',
   },
 ]
 
@@ -39,7 +39,7 @@ export default function Faq() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4" data-aos="fade-up">Preguntas Frecuentes</h2>
             <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="100">
-              Resuelve tus dudas sobre Ward.io y cómo puede ayudar a tu empresa.
+              Resuelve tus dudas sobre Ward y cómo puede ayudar a tu empresa.
             </p>
           </div>
 

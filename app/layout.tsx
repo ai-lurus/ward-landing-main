@@ -3,8 +3,8 @@ import './css/style.css'
 import Header from '@/components/ui/header'
 
 export const metadata = {
-  title: 'Ward.io - Gestión Logística Integral para Transporte de Carga',
-  description: 'Plataforma SaaS que digitaliza y optimiza la operación de flotas de transporte de carga. Control de viajes, costos, flota, inventario, operadores y reportes en un solo lugar.',
+  title: 'Ward - Gestión de Inventario para Flotas de Transporte',
+  description: 'Plataforma SaaS para digitalizar la operación de flotas de transporte de carga. Empieza con el módulo de inventario y crece con cada nueva funcionalidad.',
 }
 
 export default function RootLayout({

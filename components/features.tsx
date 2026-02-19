@@ -49,17 +49,39 @@ export default function Features() {
 
           {/* Modules / Features */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4" data-aos="fade-up">Todo lo que necesitas en una sola plataforma</h2>
+            <h2 className="h2 mb-4" data-aos="fade-up">Una plataforma que crece con tu operación</h2>
             <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="100">
-              6 módulos integrados que cubren cada aspecto de tu operación logística.
+              Módulo de Inventario disponible ahora. Control total de refacciones, llantas y consumibles. Más módulos en desarrollo.
             </p>
           </div>
 
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
 
-            {/* Module 1 */}
+            {/* Module: Inventario — DISPONIBLE */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-green-500/20 text-green-400 border border-green-500/30">
+                  <span>✓</span> Disponible ahora
+                </span>
+              </div>
+              <svg className="w-16 h-16 mb-4 mt-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" d="M21 23h22v18H21zM21 29h22M27 29v12M37 29v12" />
+              </svg>
+              <h4 className="h4 mb-2 text-center">Inventario</h4>
+              <p className="text-lg text-gray-400 text-center">
+                Entradas, salidas y trazabilidad completa. Alertas de stock mínimo y máximo para refacciones, llantas y consumibles.
+              </p>
+            </div>
+
+            {/* Module: Control de Viajes — PRÓXIMAMENTE */}
+            <div className="relative flex flex-col items-center opacity-50" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-gray-700 text-gray-400 border border-gray-600">
+                  Próximamente
+                </span>
+              </div>
+              <svg className="w-16 h-16 mb-4 mt-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" d="M22 24h20v16H22zM32 24v16M22 30h20" />
               </svg>
@@ -69,9 +91,14 @@ export default function Features() {
               </p>
             </div>
 
-            {/* Module 2 */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            {/* Module: Gestión de Flota — PRÓXIMAMENTE */}
+            <div className="relative flex flex-col items-center opacity-50" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-gray-700 text-gray-400 border border-gray-600">
+                  Próximamente
+                </span>
+              </div>
+              <svg className="w-16 h-16 mb-4 mt-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g transform="translate(20 20)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" fill="none">
                   <path className="stroke-current text-purple-100" d="M2 12h20M6 8l-4 4 4 4" />
@@ -86,21 +113,14 @@ export default function Features() {
               </p>
             </div>
 
-            {/* Module 3 */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" d="M21 23h22v18H21zM21 29h22M27 29v12M37 29v12" />
-              </svg>
-              <h4 className="h4 mb-2 text-center">Inventario</h4>
-              <p className="text-lg text-gray-400 text-center">
-                Entradas, salidas y trazabilidad completa. Alertas de stock mínimo y máximo para refacciones, llantas y consumibles.
-              </p>
-            </div>
-
-            {/* Module 4 */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            {/* Module: Operadores — PRÓXIMAMENTE */}
+            <div className="relative flex flex-col items-center opacity-50" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-gray-700 text-gray-400 border border-gray-600">
+                  Próximamente
+                </span>
+              </div>
+              <svg className="w-16 h-16 mb-4 mt-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" fill="none" d="M35 39.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M35 39.128v-.003c0-1.113-.285-2.16-.786-3.07M35 39.128v.106A12.318 12.318 0 0128.624 41c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M32 26.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
               </svg>
@@ -110,9 +130,14 @@ export default function Features() {
               </p>
             </div>
 
-            {/* Module 5 */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            {/* Module: Rutas — PRÓXIMAMENTE */}
+            <div className="relative flex flex-col items-center opacity-50" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-gray-700 text-gray-400 border border-gray-600">
+                  Próximamente
+                </span>
+              </div>
+              <svg className="w-16 h-16 mb-4 mt-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g transform="translate(21 21)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" fill="none">
                   <ellipse className="stroke-current text-purple-300" cx="11" cy="11" rx="5.5" ry="11" />
@@ -126,9 +151,14 @@ export default function Features() {
               </p>
             </div>
 
-            {/* Module 6 */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            {/* Module: Reportes — PRÓXIMAMENTE */}
+            <div className="relative flex flex-col items-center opacity-50" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-gray-700 text-gray-400 border border-gray-600">
+                  Próximamente
+                </span>
+              </div>
+              <svg className="w-16 h-16 mb-4 mt-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <circle className="fill-current text-purple-600" cx="32" cy="32" r="32" />
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
@@ -139,6 +169,39 @@ export default function Features() {
               </p>
             </div>
 
+          </div>
+
+          {/* Roadmap */}
+          <div className="mt-20 border-t border-gray-800 pt-16" data-aos="fade-up">
+            <div className="max-w-3xl mx-auto text-center mb-10">
+              <h3 className="h3 mb-3">Nuestro roadmap</h3>
+              <p className="text-gray-400">Entra temprano y acompáñanos mientras construimos la plataforma completa.</p>
+            </div>
+            <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="bg-gray-800 border border-green-500/40 rounded p-5">
+                <div className="text-xs font-semibold text-green-400 mb-2 uppercase tracking-wide">Fase 1 — Ahora</div>
+                <div className="font-semibold text-white mb-1">Inventario</div>
+                <p className="text-sm text-gray-400">Refacciones, llantas y consumibles con trazabilidad completa.</p>
+                <div className="mt-3 inline-flex items-center gap-1 text-xs text-green-400 font-semibold">
+                  <span>✓</span> Disponible
+                </div>
+              </div>
+              <div className="bg-gray-800 rounded p-5">
+                <div className="text-xs font-semibold text-purple-400 mb-2 uppercase tracking-wide">Fase 2 — Q2 2026</div>
+                <div className="font-semibold text-white mb-1">Control de Viajes y Costos</div>
+                <p className="text-sm text-gray-400">Cálculo automático de costos por viaje, casetas y combustible.</p>
+              </div>
+              <div className="bg-gray-800 rounded p-5">
+                <div className="text-xs font-semibold text-purple-400 mb-2 uppercase tracking-wide">Fase 3 — Q3 2026</div>
+                <div className="font-semibold text-white mb-1">Flota y Operadores</div>
+                <p className="text-sm text-gray-400">Gestión de unidades, mantenimiento y asignación de conductores.</p>
+              </div>
+              <div className="bg-gray-800 rounded p-5">
+                <div className="text-xs font-semibold text-purple-400 mb-2 uppercase tracking-wide">Fase 4 — Q4 2026</div>
+                <div className="font-semibold text-white mb-1">Rutas y Analytics</div>
+                <p className="text-sm text-gray-400">Dashboard ejecutivo, KPIs y rentabilidad por ruta.</p>
+              </div>
+            </div>
           </div>
 
         </div>

@@ -10,9 +10,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4">
-            <Link href="/" className="block" aria-label="Ward.io">
+            <Link href="/" className="block" aria-label="Ward">
               <Image
-                alt="Ward.io"
+                alt="Ward"
                 src={wardLogo}
                 style={{ width: 100 }}
               />

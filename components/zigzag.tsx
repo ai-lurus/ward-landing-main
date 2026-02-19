@@ -15,7 +15,7 @@ export default function Zigzag() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4" data-aos="fade-up">Cómo Funciona</h2>
             <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="100">
-              En 4 pasos simples, transforma la operación de tu empresa de transporte.
+              En 4 pasos simples, toma el control del inventario de tu flota.
             </p>
           </div>
 
@@ -30,9 +30,9 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">Paso 1</div>
-                  <h3 className="h3 mb-3">Registra tu empresa</h3>
+                  <h3 className="h3 mb-3">Configura tu almacén</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Configura tu flota de unidades, registra a tus operadores y define las rutas que manejas. El sistema se adapta a tu operación, no al revés.
+                    Define tus categorías, registra tu catálogo de refacciones, llantas y consumibles. El sistema se adapta a tu operación, no al revés.
                   </p>
                 </div>
               </div>
@@ -46,9 +46,9 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">Paso 2</div>
-                  <h3 className="h3 mb-3">Planifica viajes</h3>
+                  <h3 className="h3 mb-3">Registra movimientos</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Crea viajes y el sistema calcula automáticamente los costos: casetas según tipo de unidad y ejes, combustible estimado, seguro de carga y viáticos.
+                    Registra entradas y salidas de inventario en segundos. Cada movimiento queda trazado con fecha, responsable y motivo, sin papel ni Excel.
                   </p>
                 </div>
               </div>
@@ -62,9 +62,9 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">Paso 3</div>
-                  <h3 className="h3 mb-3">Controla operaciones</h3>
+                  <h3 className="h3 mb-3">Controla tu stock</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Gestiona inventario de refacciones, programa mantenimientos preventivos y monitorea la disponibilidad de tu flota y operadores en tiempo real.
+                    Recibe alertas automáticas cuando el stock baja del mínimo. Evita faltantes inesperados y compras duplicadas con visibilidad en tiempo real.
                   </p>
                 </div>
               </div>
@@ -78,9 +78,9 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">Paso 4</div>
-                  <h3 className="h3 mb-3">Analiza resultados</h3>
+                  <h3 className="h3 mb-3">Analiza tu inventario</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Accede a reportes de rentabilidad por ruta, dashboard ejecutivo con KPIs clave y toma decisiones estratégicas basadas en datos reales de tu operación.
+                    Consulta reportes de consumo por unidad, historial de movimientos y valor del inventario. Toma decisiones de compra basadas en datos reales.
                   </p>
                 </div>
               </div>
